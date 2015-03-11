@@ -1,0 +1,15 @@
+{
+    "title": "句末分号和赋值声明",
+    "type": "topic",
+    "order": 0,
+    "desc_file": true,
+    "code": "",
+    "question": {
+        "content": "下列哪种书写形式是没错误的?",
+        "options": ["var name = 'Tom'  var age = 16","var name = 'Tom'; var age = 16;", "var name = 'Tom'  var age = 16;"]
+    },
+    "answer": {
+        "value": "var name = 'Tom'; var age = 16;",
+        "explain_file": true
+    }
+}

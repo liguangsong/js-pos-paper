@@ -1,0 +1,41 @@
+{
+    "basic": {
+        "show_name": "JS POS机 124",
+        "id_name":"paper_course_124",
+        "type": "camps",
+        "desc": "本训练营是通过POS机这个简单的场景，逐渐增加复杂度，由浅入深的让大家练习web开发。",
+        "target_effect": {
+            "name": "JS Console",
+            "desc": "JS Console是一个类似于网页JS控制台'console'的页面应用,是本站用来助力JS教学练习的一个助手工具,你可以在里面毫无顾虑的操练JS代码,而没有后顾之忧.",
+            "href": "/super_show/js_console.html"
+        },
+        "order": 30,
+        "ico": "/images/JS.PNG",
+        "title_ico": "/images/Javascript.png",
+        "version": "2.0.16",
+        "paper_config": {
+            "default": "all"
+        },
+        "job_info":{
+            "company":{
+                "name":"test___b",
+                "place":"石家庄",
+                "scale":"已上市",
+                "number_of_people":20
+            },
+            "salary":"3000-5000",
+            "position":"完成测试页sssss面测试",
+            "experience":"无经验"
+        },
+        "publisher":"chenzhimin"
+    },
+    "relevance":{
+        "type":"path",
+        "column":"_id",
+        "index":{
+            "id_name":"jobs"
+        }
+    }
+}
+
+

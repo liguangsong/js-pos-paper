@@ -1,0 +1,43 @@
+{
+    "show_name": "POS机-V2",
+    "type": "normal",
+    "point": 200,
+
+    "simple_desc": "要求基本跟V1.1一样，只是要求用面向对象的方式来做",
+    "desc_file": true,
+    "answer_file": true,
+
+    "project_dir": "/javascript_template",
+    "specs_dir": "/specs",
+    "files": [
+        {
+            "name": "main.js",
+            "path": "/javascript_template/section_1/practice_6/"
+        },
+        {
+            "name": "fixtures.js",
+            "path": "/javascript_template/section_1/practice_6/"
+        },
+        {
+            "name": "item.js",
+            "path": "/javascript_template/section_1/practice_6/"
+        },
+        {
+            "name": "promotion.js",
+            "path": "/javascript_template/section_1/practice_6/"
+        },
+        {
+            "name": "practice_6.js",
+            "path": "/specs/section_1/",
+            "is_read_only": true
+        }
+    ],
+    "runner": {
+        "name": "challenge.html",
+        "path": "/javascript_template",
+        "type":"terminal",
+        "src":"browser",
+        "run_files": ["../javascript_template/section_1/practice_6/item.js", "../javascript_template/section_1/practice_6/promotion.js", "../javascript_template/section_1/practice_6/fixtures.js","../javascript_template/section_1/practice_6/main.js", "../specs/section_1/practice_6"]
+    },
+    "order": 5
+}

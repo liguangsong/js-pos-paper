@@ -1,0 +1,15 @@
+{
+    "title": "日志输出",
+    "type": "topic",
+    "order": 1,
+    "desc_file": true,
+    "code": "console.log('Sunday');",
+    "question": {
+        "content": "上面代码在控制台console中的输出结果是?",
+        "options": ["Sunday","String", "'Sunday'"]
+    },
+    "answer": {
+        "value": "Sunday",
+        "explain_file": true
+    }
+}

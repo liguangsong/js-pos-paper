@@ -1,0 +1,14 @@
+{
+    "title": "字符串简介",
+    "type": "topic",
+    "order": 0,
+    "desc_file": true,
+    "question": {
+        "content": "下列选项中哪一项是字符串的正确书写格式?",
+        "options": ["\"Hi'","'Hello!'", "Hello World"]
+    },
+    "answer": {
+        "value": "'Hello!'",
+        "explain_file": true
+    }
+}

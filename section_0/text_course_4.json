@@ -1,0 +1,15 @@
+{
+    "title": "注释 - 单行注释",
+    "type": "topic",
+    "order": 1,
+    "desc_file": true,
+    "code": "var today = '周四';\n//today = '周五';\nconsole.log(today);",
+    "question": {
+        "content": "上面代码的输出结果是?",
+        "options": ["周四","周五", "today"]
+    },
+    "answer": {
+        "value": "周四",
+        "explain_file": true
+    }
+}

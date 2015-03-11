@@ -1,0 +1,35 @@
+{
+    "show_name": "POS机-V1",
+    "type": "normal",
+    "point": 200,
+
+    "simple_desc": "这台收银机会在结算时根据客户的购物车（Cart）中的商品（Item）和商店正在进行的优惠活动（Promotion）进行结算和打印购物清单。",
+    "desc_file": true,
+    "answer_file": true,
+
+    "project_dir": "/javascript_template",
+    "specs_dir": "/specs",
+    "files": [
+        {
+            "name": "main.js",
+            "path": "/javascript_template/section_1/practice_4/"
+        },
+        {
+            "name": "fixtures.js",
+            "path": "/javascript_template/section_1/practice_4/"
+        },
+        {
+            "name": "practice_4.js",
+            "path": "/specs/section_1/",
+            "is_read_only": true
+        }
+    ],
+    "runner": {
+        "name": "challenge.html",
+        "path": "/javascript_template",
+        "type":"terminal",
+        "src":"browser",
+        "run_files": ["../javascript_template/section_1/practice_4/fixtures.js", "../javascript_template/section_1/practice_4/main.js", "../specs/section_1/practice_4"]
+    },
+    "order": 3
+}
